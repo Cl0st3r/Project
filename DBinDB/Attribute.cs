@@ -13,6 +13,7 @@ namespace DBinDB
         private bool isForeign;
         private string type;
         private string defaultValue;
+        private List<Constraints> constraints;
 
         public string Name
         {
