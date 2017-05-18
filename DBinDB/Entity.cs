@@ -10,6 +10,7 @@ namespace DBinDB
     {
         private DateTime creationTime;
         private string name;
+        private List<Attribute> attributes;
 
         public DateTime CreationTime
         {
@@ -34,6 +35,19 @@ namespace DBinDB
             set
             {
                 name = value;
+            }
+        }
+
+        internal List<Attribute> Attributes
+        {
+            get
+            {
+                return attributes;
+            }
+
+            set
+            {
+                attributes = value;
             }
         }
     }
