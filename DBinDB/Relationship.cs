@@ -11,6 +11,8 @@ namespace DBinDB
         private bool isIdentifying;
         private string name;
         public Attribute foreignKey;
+
+
         public bool IsIdentifying
         {
             get
