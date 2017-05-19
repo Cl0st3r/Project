@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBinDB", "DBinDB\DBinDB.csproj", "{DC9AFDE7-336A-40B2-8FA7-B9253688B75E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3FB4F27D-EAEC-4FA9-9860-5038554CA037}"
+	ProjectSection(SolutionItems) = preProject
+		H:\Eigene Dateien\c#\Projekt\DbinDbDB.accdb = H:\Eigene Dateien\c#\Projekt\DbinDbDB.accdb
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
