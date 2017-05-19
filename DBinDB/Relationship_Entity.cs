@@ -10,6 +10,45 @@ namespace DBinDB
     {
         private Relationship rel;
         private Entity ent;
-        private char 
+        private char cardinality;
+
+        internal Relationship Rel
+        {
+            get
+            {
+                return rel;
+            }
+
+            set
+            {
+                rel = value;
+            }
+        }
+
+        internal Entity Ent
+        {
+            get
+            {
+                return ent;
+            }
+
+            set
+            {
+                ent = value;
+            }
+        }
+
+        public char Cardinality
+        {
+            get
+            {
+                return cardinality;
+            }
+
+            set
+            {
+                cardinality = value;
+            }
+        }
     }
 }

@@ -14,6 +14,7 @@ namespace DBinDB
         private string type;
         private string defaultValue;
         private List<Constraints> constraints;
+        private Relationship foreignKey;
 
         public string Name
         {
